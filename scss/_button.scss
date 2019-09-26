@@ -2,13 +2,13 @@
 ============================================================================================ */
 .download_btn{
     display: block;
-    background: $baseColor;
+    background: green;
     text-align: center;
     line-height: 40px;
     border-radius: 20px;
     color: $dip;
     font-size: 18px;
-    font-family: $yell;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     overflow: hidden;
     span{
