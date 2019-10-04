@@ -14,10 +14,13 @@ hr {
 
 .footer {
   text-align: center;
-  background-color: #ccc;
-  height: 50px;
-  line-height: 50px;
+  background-color: black;
+  height: 70px;
+  line-height: 70px;
+color:white;
+width: 100%;;
 }
+
 
 body {
   -webkit-touch-callout: none;
@@ -27,6 +30,11 @@ body {
   -o-user-select: none;
   user-select: none;
   background: pink;
+  margin:0;
+   
+}
+.img{
+  box-shadow: 5px 10px 18px #888888;
 }
 
 /*# sourceMappingURL=style.css.map */
