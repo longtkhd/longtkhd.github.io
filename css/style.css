@@ -31,5 +31,8 @@ body {
   background-image: linear-gradient(115deg, pink, pink, #a767e5, #12bcfe, #44ce7b);
   margin: 0;
 }
+img{
+  border:1px solid salmon;
+ 
 
 /*# sourceMappingURL=style.css.map */
