@@ -17,10 +17,9 @@ hr {
   background-color: black;
   height: 70px;
   line-height: 70px;
-color:white;
-width: 100%;;
+  color: white;
+  width: 100%;
 }
-
 
 body {
   -webkit-touch-callout: none;
@@ -29,9 +28,8 @@ body {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-  background: pink;
-  margin:0;
-   
+  background-image: linear-gradient(115deg, pink, pink, #a767e5, #12bcfe, #44ce7b);
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
