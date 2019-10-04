@@ -14,5 +14,13 @@ hr {
   background-color: #ccc;
   height: 50px;
   line-height: 50px; }
+  body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
 
 /*# sourceMappingURL=style.css.map */
