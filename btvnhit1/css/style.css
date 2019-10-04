@@ -1,0 +1,18 @@
+h1 {
+  color: palevioletred;
+  text-align: center; }
+
+hr {
+  width: 70%; }
+
+.char {
+  text-align: center;
+  height: auto; }
+
+.footer {
+  text-align: center;
+  background-color: #ccc;
+  height: 50px;
+  line-height: 50px; }
+
+/*# sourceMappingURL=style.css.map */
