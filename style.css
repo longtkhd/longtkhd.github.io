@@ -6,9 +6,14 @@
     font-weight: lighter;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 .menu {
     width: 50%;
     margin: 0 auto;
+    background-color: #ccc;
 }
 
 .menu ul {
@@ -19,18 +24,20 @@
 .menu ul li {
     text-align: center;
     float: left;
-    width: 140px;
-    height: 40px;
-    line-height: 40px;
+    width: 145px;
+    padding-top: 1px;
     position: relative;
     border: solid 1px #70c2e9;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    background-color: white;
 }
 
 .menu ul li a {
     text-decoration: none;
     display: block;
     color: #70c2e9;
-    border-color: #70c2e9;
     transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: ease;
@@ -48,7 +55,7 @@ ul li:hover a {
 .menu ul li:hover {
     transition-property: all;
     transition: all 400ms linear 0s;
-    background-color: white;
+    background-color: 70c2e9;
     z-index: 10000;
     transform: translateX(1.5em);
 }
@@ -61,7 +68,7 @@ ul li:hover a {
 }
 
 .main-menu>li>.sub-menu {
-    top: 40px;
+    top: 53px;
     left: -1px;
 }
 
