@@ -11,9 +11,10 @@ body {
 }
 
 .menu {
-    width: 50%;
-    margin: 0 auto;
-    background-color: #ccc;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    height: 50px;
 }
 
 .menu ul {
@@ -25,13 +26,10 @@ body {
     text-align: center;
     float: left;
     width: 145px;
-    padding-top: 1px;
-    position: relative;
-    border: solid 1px #70c2e9;
     height: 50px;
     line-height: 50px;
     position: relative;
-    background-color: white;
+    background-color: black;
 }
 
 .menu ul li a {
@@ -48,7 +46,6 @@ body {
 ul li:hover a {
     color: white;
     transition-delay: 0s;
-    transition: all 400ms linear 0s;
     background: #70c2e9;
 }
 
@@ -57,7 +54,7 @@ ul li:hover a {
     transition: all 400ms linear 0s;
     background-color: 70c2e9;
     z-index: 10000;
-    transform: translateX(1.5em);
+    transform: translateX(2em);
 }
 
 .main-menu .sub-menu {
@@ -68,10 +65,17 @@ ul li:hover a {
 }
 
 .main-menu>li>.sub-menu {
-    top: 53px;
-    left: -1px;
+    top: 50px;
+    left: 0px;
 }
 
 .main-menu li:hover>ul.sub-menu {
     display: block;
+}
+
+.search {
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+    float: right;
 }
