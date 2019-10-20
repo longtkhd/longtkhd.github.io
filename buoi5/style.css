@@ -52,7 +52,7 @@ ul li:hover a {
 .menu ul li:hover {
     transition-property: all;
     transition: all 400ms linear 0s;
-    background-color: 70c2e9;
+    background-color: #70c2e9;
     z-index: 10000;
     transform: translateX(2em);
 }
@@ -79,3 +79,6 @@ ul li:hover a {
     width: 150px;
     float: right;
 }
+
+
+/* CMT */
