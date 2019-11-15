@@ -135,5 +135,8 @@
 @media all and (max-width: 993px) {
   .grid-container {
     display: block; } }
+@media all and (max-width: 600px) {
+  .comment {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

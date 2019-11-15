@@ -195,3 +195,9 @@
     }
     //do mình muốn test thử grid nên css có hơi nhiều :v nhưng reponsive có vẻ đơn giản hơn
 }
+
+@media all and (max-width:600px) {
+    .comment {
+        display: none;
+    }
+}
