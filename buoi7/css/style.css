@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5; }
+
+.light_grey {
+  background-color: #f1f1f1 !important; }
+  .light_grey .margin {
+    max-width: 1400px;
+    margin: 0 18.8px; }
+    .light_grey .margin .header {
+      padding: 32px 16px;
+      text-align: center; }
+      .light_grey .margin .header h1 {
+        font-weight: 400;
+        margin: 10px 0;
+        font-size: 36px; }
+      .light_grey .margin .header p {
+        font-size: 15px;
+        margin: 15px 0; }
+        .light_grey .margin .header p .blackBg {
+          background-color: #000;
+          color: #fff;
+          display: inline-block;
+          padding-left: 8px;
+          padding-right: 8px;
+          text-align: center; }
+
+.grid-container {
+  display: grid;
+  grid-gap: 20px 0px;
+  grid-template-columns: 33.33% 33.33% 33.33%; }
+  .grid-container .grid-item .content1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19); }
+    .grid-container .grid-item .content1 .name {
+      padding: 8px 16px;
+      background-color: #f1f1f1; }
+      .grid-container .grid-item .content1 .name h4 {
+        font-weight: 400;
+        font-size: 20px;
+        padding: 10px 0; }
+    .grid-container .grid-item .content1 .listTag {
+      margin: 16px 0;
+      padding: 0 16px; }
+      .grid-container .grid-item .content1 .listTag p {
+        font-size: 12px;
+        display: inline-block; }
+      .grid-container .grid-item .content1 .listTag .marginTag {
+        padding-bottom: 16px;
+        padding: 0 8px;
+        background-color: #f1f1f1; }
+      .grid-container .grid-item .content1 .listTag .active {
+        background-color: black !important;
+        color: white;
+        font-size: 15px; }
+      .grid-container .grid-item .content1 .listTag .mb {
+        margin-bottom: 16px; }
+    .grid-container .grid-item .content1 ul {
+      list-style: none; }
+      .grid-container .grid-item .content1 ul li {
+        border-bottom: 1px solid #ddd;
+        padding: 16px; }
+        .grid-container .grid-item .content1 ul li img {
+          margin-right: 16px;
+          float: left; }
+    .grid-container .grid-item .content1 .title {
+      padding: 0.01em 16px; }
+      .grid-container .grid-item .content1 .title h3 {
+        font-weight: 400;
+        font-size: 24px;
+        margin: 10px 0; }
+      .grid-container .grid-item .content1 .title h5 {
+        font-weight: 400;
+        font-size: 18px;
+        margin: 10px 0; }
+      .grid-container .grid-item .content1 .title h4 {
+        font-weight: 400;
+        font-size: 20px;
+        margin: 10px 0; }
+    .grid-container .grid-item .content1 .container1 {
+      padding: 0.01em 16px; }
+      .grid-container .grid-item .content1 .container1 p {
+        font-size: 15px;
+        margin: 15px 0; }
+      .grid-container .grid-item .content1 .container1 .more {
+        display: flex; }
+        .grid-container .grid-item .content1 .container1 .more .button {
+          width: 66%; }
+        .grid-container .grid-item .content1 .container1 .more p {
+          color: #000; }
+          .grid-container .grid-item .content1 .container1 .more p .border {
+            background-color: #fff;
+            padding: 12px 24px !important;
+            border: 1px solid #ccc;
+            font-size: 15px; }
+            .grid-container .grid-item .content1 .container1 .more p .border:hover {
+              background-color: #ccc;
+              color: black; }
+        .grid-container .grid-item .content1 .container1 .more .comment {
+          width: 33%; }
+          .grid-container .grid-item .content1 .container1 .more .comment p {
+            justify-content: flex-end; }
+            .grid-container .grid-item .content1 .container1 .more .comment p .number {
+              background-color: black;
+              color: white;
+              padding: 0 8px;
+              margin-left: 10px; }
+  .grid-container .grid-item .m {
+    margin: 40px 16px; }
+  .grid-container .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 /span 2; }
+  .grid-container .item2 {
+    grid-column: 3;
+    grid-row: 1; }
+
+.footer {
+  margin-top: 16px;
+  padding: 32px 16px;
+  color: #fff;
+  background-color: #616161 !important; }
+  .footer .bt {
+    margin-bottom: 16px;
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px; }
+  .footer a {
+    text-decoration: none;
+    color: red; }
+
+@media all and (max-width: 993px) {
+  .grid-container {
+    display: block; } }
+
+/*# sourceMappingURL=style.css.map */

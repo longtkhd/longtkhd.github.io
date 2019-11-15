@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+}
+
+.light_grey {
+    background-color: #f1f1f1 !important;
+    .margin {
+        max-width: 1400px;
+        margin: 0 18.8px;
+        .header {
+            padding: 32px 16px;
+            text-align: center;
+            h1 {
+                font-weight: 400;
+                margin: 10px 0;
+                font-size: 36px;
+            }
+            p {
+                font-size: 15px;
+                margin: 15px 0;
+                .blackBg {
+                    background-color: #000;
+                    color: #fff;
+                    display: inline-block;
+                    padding-left: 8px;
+                    padding-right: 8px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 20px 0px;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    .grid-item {
+        .content1 {
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+            .name {
+                //THIS CLASS USE FOR LIST IMAGE
+                padding: 8px 16px;
+                background-color: #f1f1f1;
+                ;
+                h4 {
+                    font-weight: 400;
+                    font-size: 20px;
+                    padding: 10px 0;
+                }
+            }
+            //List Tag
+            .listTag {
+                margin: 16px 0;
+                padding: 0 16px;
+                p {
+                    font-size: 12px;
+                    display: inline-block;
+                }
+                .marginTag {
+                    padding-bottom: 16px;
+                    padding: 0 8px;
+                    background-color: #f1f1f1;
+                }
+                .active {
+                    background-color: black !important;
+                    color: white;
+                    font-size: 15px;
+                }
+                .mb {
+                    margin-bottom: 16px;
+                }
+            }
+            //THIS USE FOR UL LI 
+            ul {
+                list-style: none;
+                li {
+                    border-bottom: 1px solid #ddd;
+                    padding: 16px;
+                    img {
+                        margin-right: 16px;
+                        float: left;
+                    }
+                }
+            }
+            .title {
+                padding: 0.01em 16px;
+                h3 {
+                    font-weight: 400;
+                    font-size: 24px;
+                    margin: 10px 0;
+                }
+                h5 {
+                    font-weight: 400;
+                    font-size: 18px;
+                    margin: 10px 0;
+                }
+                h4 {
+                    font-weight: 400;
+                    font-size: 20px;
+                    margin: 10px 0;
+                }
+            }
+            .container1 {
+                padding: 0.01em 16px;
+                p {
+                    font-size: 15px;
+                    margin: 15px 0;
+                }
+                .more {
+                    display: flex;
+                    .button {
+                        width: 66%;
+                    }
+                    p {
+                        color: #000;
+                        .border {
+                            background-color: #fff;
+                            padding: 12px 24px !important;
+                            border: 1px solid #ccc;
+                            font-size: 15px;
+                            &:hover {
+                                background-color: #ccc;
+                                color: black;
+                            }
+                        }
+                    }
+                    .comment {
+                        width: 33%;
+                        p {
+                            justify-content: flex-end;
+                            .number {
+                                background-color: black;
+                                color: white;
+                                padding: 0 8px;
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .m {
+            margin: 40px 16px;
+        }
+    }
+    //THIS IS THE FIRST TIME I USE GRID :(
+    .item1 {
+        grid-column: 1 / span 2;
+        grid-row: 1 /span 2;
+    }
+    .item2 {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    // .item3 {
+    //     grid-column: 3;
+    //     grid-row: 2 / span 3;
+    // }
+    // .item4 {
+    //     grid-column: 1 / span 2;
+    //     grid-row: 3 /span 4;
+    // }
+}
+
+.footer {
+    margin-top: 16px;
+    padding: 32px 16px;
+    color: #fff;
+    background-color: #616161 !important;
+    .bt {
+        margin-bottom: 16px;
+        padding: 12px 24px;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 15px;
+    }
+    a {
+        text-decoration: none;
+        color: red;
+    }
+}
+
+// ===========================================================
+//         REPONSIVE
+// ===========================================================
+@media all and (max-width:993px) {
+    .grid-container {
+        display: block;
+    }
+    //do mình muốn test thử grid nên css có hơi nhiều :v nhưng reponsive có vẻ đơn giản hơn
+}
