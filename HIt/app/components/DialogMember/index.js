@@ -85,43 +85,40 @@ function DialogMember(props) {
     isFormer: undefined,
     birth: undefined,
   },);
-  
   useInjectReducer({ key: 'memberPage', reducer });
   useInjectSaga({ key: 'memberPage', saga });
-
+  //useEffect
   useEffect((prop) => {
     setOpen(props.open);
     setUserInfor(defineLevel);
-    console.log(prop);
+    
   });
-  // const handChangeUserInfor = name => event => {
-  //   // const userInfor = { userInfor };
-  //   userInfor[name] = event.target.value;
-  //   console.log(userInfor);
-  //   setUserInfor({userInfor});
-  
-  // };
   const handChangeUserInfor = name => event => {
-    // const { userInfor } = this.state;
+    // const userInfors = { userInfor};
     userInfor[name] = event.target.value;
-    console.log(userInfor);
-   setUserInfor(userInfor);
-  };
-  const handleSubmit = () => {
-    const newUser = {userInfor};
-    // console.log('newUser');
-    console.log(newUser);
-    // if (!props.isEdit) {
-      newUser.role = props.type;
-      props.onCreateUser(newUser);
-    // } 
-   
+    setUserInfor({userInfor});
   
 
-    // this.setState({ userInfor: defineUser, open: false });
-     setUserInfor({defineLevel});
-    setOpen(false);
   };
+  const handleSubmit = () => {
+    const newUser = Object.assign({}, {userInfor});
+    console.log(newUser.userInfor);
+   
+    if (!props.isEdit) {
+      newUser.role = props.type;
+      props.onCreateUser(newUser.userInfor);
+    } ;
+    props.handleClose();
+
+    // this.setState({ userInfor: defineUser, open: false });
+ 
+  };
+  
+  
+ 
+  
+  
+
   
   const { classes, className, ...rest } = props;
   return (
@@ -375,7 +372,9 @@ function DialogMember(props) {
   );
 }
 
-DialogMember.propTypes = {};
+DialogMember.propTypes = {
+  classes: PropTypes.object,
+};
 const mapStateToProps = createStructuredSelector({
   memberPage: makeSelectMemberPage(),
 });
