@@ -1,0 +1,102 @@
+* {
+  font-family: "Open Sans", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+a {
+  text-decoration: none !important;
+  font-size: 0.929em !important; }
+
+.navbar {
+  padding: 0 !important; }
+
+.top {
+  padding: 2em 0;
+  display: flex; }
+
+.logo {
+  min-width: 300px;
+  max-width: 300px;
+  padding: 0 15px; }
+
+.navbar-search {
+  width: 791px !important;
+  margin: 2px !important; }
+
+.form {
+  padding: 3px 15px;
+  width: 791px; }
+
+.input-search {
+  padding: 4.5px 32px;
+  border-radius: 1.571em !important;
+  border: solid 2px #0fc567 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-right: 0 !important;
+  width: 473px !important; }
+
+.form2 {
+  border: solid 2px #0fc567 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  width: 150px; }
+
+.pi {
+  border: solid 2px #0fc567 !important;
+  border-radius: 1.571em !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  background-color: #0fc567; }
+
+.header-icon {
+  width: 100px;
+  padding: 0 15px;
+  text-align: center; }
+
+.pa1 {
+  padding: 0 !important; }
+  .pa1 a {
+    padding: .786em 1em !important;
+    color: #0fc567 !important;
+    font-weight: 700;
+    font-size: 14px !important; }
+
+.container {
+  max-width: 1260px !important; }
+
+img {
+  height: auto;
+  max-width: 100%;
+  display: block; }
+
+.title {
+  display: flex; }
+  .title h4 {
+    font-size: 16px;
+    color: #0fc567;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center; }
+  .title .text-succes {
+    color: #0fc567 !important; }
+
+.pl_15 {
+  padding: 0 15px; }
+
+hr {
+  width: 78%;
+  color: #0fc567;
+  background-image: linear-gradient(to right, #2cbe53, transparent); }
+
+.title {
+  margin-bottom: 35px; }
+
+.laptop .img {
+  margin-bottom: 5px; }
+.laptop h4 {
+  font-size: 18px !important;
+  font-weight: 700; }
+.laptop .contentLaptop {
+  font-size: 14px !important; }
+
+/*# sourceMappingURL=style.css.map */
