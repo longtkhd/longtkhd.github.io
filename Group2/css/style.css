@@ -1,5 +1,8 @@
 * {
-  font-family: "Open Sans", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+  min-width: 100%;
+  font-family: "Open Sans", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  box-sizing: border-box;
+  overflow: hidden; }
 
 a {
   text-decoration: none !important;
@@ -148,6 +151,8 @@ ul {
 .megaMenu ul li {
   font-size: 13px !important;
   padding: 5px 0; }
+  .megaMenu ul li a {
+    color: #0fc54c; }
 
 .hmega {
   padding: 20px 26px 70px 26px !important; }
@@ -158,6 +163,11 @@ ul {
 .dropdown:hover > .dropdown-menu {
   display: block;
   top: 100%; }
+
+.menuhover:hover {
+  background-color: #0fc54c; }
+  .menuhover:hover a {
+    color: white !important; }
 
 .h2sub {
   margin: 0 !important;

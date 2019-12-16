@@ -1,5 +1,8 @@
 * {
+    min-width: 100%;
     font-family: "Open Sans", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 a {
@@ -212,6 +215,9 @@ ul {
         li {
             font-size: 13px !important;
             padding: 5px 0;
+            a {
+                color: #0fc54c;
+            }
         }
     }
 }
@@ -229,6 +235,13 @@ ul {
 .dropdown:hover>.dropdown-menu {
     display: block;
     top: 100%;
+}
+
+.menuhover:hover {
+    background-color: #0fc54c;
+    a {
+        color: white !important;
+    }
 }
 
 .h2sub {
