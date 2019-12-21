@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    height: 70px;
+    background-color: white;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: black;
+    ul {
+        display: flex;
+        list-style: none;
+        float: right;
+        li {
+            padding: 5px 20px;
+            line-height: 60px;
+            a {
+                text-decoration: none;
+                color: black;
+                padding: 15px 35px;
+                background-color: white;
+                border-radius: 10px;
+                font-size: 16px;
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+}
+
+.imageBackground {
+    background-image: url("../imgs/Web_HITOpenDay/69524855_2465239210204272_2321731948667469824_o.jpg");
+    min-height: 650px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    padding: 64px 0;
+    .center {
+        font-size: 30px;
+        h2 {
+            padding-bottom: 50px;
+        }
+    }
+    hr {
+        width: 30px;
+        text-align: center;
+    }
+    .about {
+        display: flex;
+        margin-top: 30px;
+        font-size: 18px;
+        p {
+            padding: 30px 0;
+            color: #777;
+            line-height: 1.5;
+        }
+        .left {
+            width: 33%;
+            text-align: left;
+        }
+        .mid {
+            width: 33%;
+        }
+        .rightabout {
+            width: 33%;
+            text-align: left;
+            padding-left: 20px;
+            p {
+                padding: 30px 0;
+                color: #777;
+                line-height: 1.5;
+            }
+        }
+    }
+}
+
+.rarius {
+    border-radius: 50%;
+}
+
+.center {
+    font-size: 30px;
+    text-align: center;
+    h2 {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+
+.hitleader {
+    margin-top: 30px;
+    .center {
+        font-size: 30px;
+        text-align: center !important;
+        h2 {
+            text-align: center !important;
+            padding-bottom: 50px;
+        }
+    }
+    .about {
+        display: flex;
+        margin-top: 30px;
+    }
+    .left {
+        width: 33%;
+    }
+    .mid {
+        width: 33%;
+    }
+    .right {
+        width: 33%;
+        // text-align: left;
+        // padding-left: 20px;
+        // p {
+        //     padding: 30px 0;
+        //     color: #777;
+        //     line-height: 1.5;
+        // }
+    }
+    .container {
+        text-align: center;
+        background-color: orangered;
+        height: 100px;
+        color: white;
+        padding-top: 40px;
+    }
+    .rb {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+.card {
+    padding: 0 50px;
+    border-radius: 10px;
+}
+
+.rimg {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.content1 {
+    width: 100%;
+}
+
+.port {
+    margin-top: 50px;
+    padding: 5px 50px;
+    .gallery {
+        margin-top: 10px;
+        display: flex;
+        .col {
+            width: 33%;
+            padding: 0 10px;
+        }
+    }
+    .gallerymid {
+        margin-top: 10px;
+    }
+}
+
+.hit {
+    color: yellow;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.port {
+    img:hover {
+        transform: scale(1.5);
+        transition: all ease-in-out 0.5s;
+        overflow: hidden;
+    }
+}
+
+img {
+    overflow: hidden;
+}
+
+.list {
+    li {
+        list-style: none;
+        padding: 5px 0;
+        opacity: 0.8;
+    }
+}
+
+.tab {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    .tab1 {
+        margin-top: 5px;
+    }
+    ul {
+        display: flex;
+        li {
+            padding: 20px 0px;
+            list-style: none;
+            border: 1px solid black;
+            border-radius: 50%;
+            width: 25%;
+            margin: 0 3px;
+            &:hover {
+                background-color: black;
+                color: white !important;
+                transition-duration: 0.2s;
+                a {
+                    color: white;
+                }
+            }
+            a {
+                text-decoration: none;
+                font-size: 15px;
+                color: black;
+            }
+        }
+    }
+}
+
+.tab1 {
+    margin-top: 15px 15px;
+}
+
+.logohit {
+    height: 70px;
+    width: 70px;
+}
