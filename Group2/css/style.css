@@ -1,181 +1,242 @@
 * {
-  min-width: 100%;
-  font-family: "Open Sans", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  box-sizing: border-box;
-  overflow: hidden; }
+    font-family: "Open Sans", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    box-sizing: border-box;
+}
 
 a {
-  text-decoration: none !important;
-  font-size: 0.929em !important; }
+    text-decoration: none !important;
+    font-size: 0.929em !important;
+}
 
 .navbar {
-  padding: 0 !important; }
+    padding: 0 !important;
+}
 
 .top {
-  padding: 2em 0;
-  display: flex; }
+    padding: 2em 0;
+    display: flex;
+}
 
 .logo {
-  min-width: 300px;
-  max-width: 300px;
-  padding: 0 15px; }
+    min-width: 300px;
+    max-width: 300px;
+    padding: 0 15px;
+}
 
 .navbar-search {
-  width: 791px !important;
-  margin: 2px !important; }
+    width: 791px !important;
+    margin: 2px !important;
+}
 
 .form {
-  padding: 3px 15px;
-  width: 791px; }
+    padding: 3px 15px;
+    width: 791px;
+}
 
 .input-search {
-  padding: 4.5px 32px;
-  border-radius: 1.571em !important;
-  border: solid 2px #0fc567 !important;
-  border-top-right-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
-  border-right: 0 !important;
-  width: 473px !important; }
+    padding: 4.5px 32px;
+    border-radius: 1.571em !important;
+    border: solid 2px #0fc567 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: 0 !important;
+    width: 473px !important;
+}
 
 .form2 {
-  border: solid 2px #0fc567 !important;
-  border-right: 0 !important;
-  border-left: 0 !important;
-  width: 150px; }
+    border: solid 2px #0fc567 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    width: 150px;
+}
 
 .pi {
-  border: solid 2px #0fc567 !important;
-  border-radius: 1.571em !important;
-  border-top-left-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
-  background-color: #0fc567; }
+    border: solid 2px #0fc567 !important;
+    border-radius: 1.571em !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    background-color: #0fc567;
+}
 
 .header-icon {
-  width: 100px;
-  padding: 0 15px;
-  text-align: center; }
+    width: 100px;
+    padding: 0 15px;
+    text-align: center;
+}
 
 .pa1 {
-  padding: 0 !important; }
-  .pa1 a {
+    padding: 0 !important;
+}
+
+.pa1 a {
     padding: .786em 1em !important;
     color: #0fc567 !important;
     font-weight: 700;
-    font-size: 14px !important; }
-  .pa1 .psub a {
-    padding: 5px 0; }
+    font-size: 14px !important;
+}
+
+.pa1 .psub a {
+    padding: 5px 0;
+}
 
 .container {
-  max-width: 1260px !important; }
+    max-width: 1260px !important;
+}
 
 img {
-  height: auto;
-  max-width: 100%;
-  display: block; }
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
 
 .title {
-  display: flex; }
-  .title h4 {
+    display: flex;
+}
+
+.title h4 {
     font-size: 16px;
     color: #0fc567;
     font-weight: 700;
     margin-top: 5px;
     margin-left: 10px;
-    text-align: center; }
-  .title .text-succes {
-    color: #0fc567 !important; }
+    text-align: center;
+}
+
+.title .text-succes {
+    color: #0fc567 !important;
+}
 
 .pl_15 {
-  padding: 0 15px; }
+    padding: 0 15px;
+}
 
 hr {
-  width: 73%;
-  color: #0fc567;
-  background-image: linear-gradient(to right, #2cbe53, transparent); }
+    width: 73%;
+    color: #0fc567;
+    background-image: linear-gradient(to right, #2cbe53, transparent);
+}
 
 .title {
-  margin-bottom: 35px; }
+    margin-bottom: 35px;
+}
 
 .laptop {
-  margin-bottom: 35px !important; }
-  .laptop .img {
-    margin-bottom: 5px; }
-  .laptop h4 {
+    margin-bottom: 35px !important;
+}
+
+.laptop .img {
+    margin-bottom: 5px;
+}
+
+.laptop h4 {
     font-size: 18px !important;
-    font-weight: 700; }
-  .laptop .contentLaptop {
-    font-size: 14px !important; }
-  .laptop h2 {
-    font-size: 14px; }
-  .laptop ins {
+    font-weight: 700;
+}
+
+.laptop .contentLaptop {
+    font-size: 14px !important;
+}
+
+.laptop h2 {
+    font-size: 14px;
+}
+
+.laptop ins {
     text-decoration: none;
     color: red;
-    font-size: 20px; }
+    font-size: 20px;
+}
 
 .buttonSee {
-  margin-top: 20px;
-  text-align: center; }
-  .buttonSee .button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttonSee .button {
     background-color: #0fc54c;
     color: white;
-    padding: 10px 5px; }
+    padding: 10px 5px;
+}
 
 .element {
-  padding: 25px 0;
-  margin-bottom: 35px; }
+    padding: 25px 0;
+    margin-bottom: 35px;
+}
 
 .info p {
-  font-size: 14px; }
+    font-size: 14px;
+}
 
 ul {
-  padding: 0 !important; }
-  ul li {
-    list-style: none; }
+    padding: 0 !important;
+}
+
+ul li {
+    list-style: none;
+}
 
 .menuu li {
-  border-bottom: solid 1px rgba(168, 168, 168, 0.3); }
+    border-bottom: solid 1px rgba(168, 168, 168, 0.3);
+}
 
 .w-drop {
-  min-width: 60rem !important;
-  padding: 0 !important;
-  margin: 0 !important; }
+    min-width: 60rem !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
 
 .psub a {
-  padding: 5px 0 !important;
-  color: black !important; }
+    padding: 5px 0 !important;
+    color: black !important;
+}
 
 .megaMenu p {
-  font-weight: 600;
-  margin: 0 !important;
-  font-size: 14px !important; }
+    font-weight: 600;
+    margin: 0 !important;
+    font-size: 14px !important;
+}
+
 .megaMenu ul li {
-  font-size: 13px !important;
-  padding: 5px 0; }
-  .megaMenu ul li a {
-    color: #0fc54c; }
+    font-size: 13px !important;
+    padding: 5px 0;
+}
+
+.megaMenu ul li a {
+    color: #0fc54c;
+}
 
 .hmega {
-  padding: 20px 26px 70px 26px !important; }
+    padding: 20px 26px 70px 26px !important;
+}
 
 #navbarDropdowna:hover {
-  background-color: #0fc54c !important; }
+    background-color: #0fc54c !important;
+}
 
-.dropdown:hover > .dropdown-menu {
-  display: block;
-  top: 100%; }
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    top: 100%;
+}
 
 .menuhover:hover {
-  background-color: #0fc54c; }
-  .menuhover:hover a {
-    color: white !important; }
+    background-color: #0fc54c;
+}
+
+.menuhover:hover a {
+    color: white !important;
+}
 
 .h2sub {
-  margin: 0 !important;
-  padding-left: 20px;
-  padding-right: 10px;
-  width: 130px; }
-  .h2sub ul li {
+    margin: 0 !important;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 130px;
+}
+
+.h2sub ul li {
     font-size: 13px !important;
-    padding: 5px 14px; }
+    padding: 5px 14px;
+}
+
 
 /*# sourceMappingURL=style.css.map */

@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
 }
 
 a {
@@ -269,4 +269,25 @@ ul li {
     del {
         font-size: 10px;
     }
+}
+
+.active1::before {
+    content: ">" !important;
+}
+
+.breadcrumb {
+    font-size: 14px !important;
+    background-color: white !important;
+}
+
+
+/* DELL SUB */
+
+.sub_lap .sidebar h3 {
+    font-weight: 700;
+    font-size: 1.286em;
+}
+
+.mainheader h1 {
+    font-size: 1.786em;
 }
