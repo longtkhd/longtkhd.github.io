@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+    /* font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important; */
 }
 
 a {
@@ -161,6 +161,11 @@ hr {
 .buttonSee {
     margin-top: 20px;
     text-align: center;
+    transition: all .2s ease-in-out;
+    touch-action: manipulation;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    transform: translate3d(0, 100%, 0);
 }
 
 .buttonSee .button {
@@ -196,6 +201,14 @@ ul li {
     margin: 0 !important;
 }
 
+.w-side {
+    min-width: 40rem !important;
+}
+
+.title-side {
+    font: 11.7px !important;
+}
+
 .psub a {
     padding: 5px 0 !important;
     color: black !important;
@@ -225,6 +238,10 @@ ul li {
     top: 100%;
 }
 
+.dropright .dropdown-menu {
+    top: 0 !important;
+}
+
 .menuhover:hover {
     background-color: #0fc54c;
 }
@@ -240,6 +257,10 @@ ul li {
 
 .megaMenu ul li:hover a {
     padding: 0 !important;
+    color: #0fc54c;
+}
+
+.h2color:hover {
     color: #0fc54c;
 }
 
@@ -278,6 +299,10 @@ ul li {
 .breadcrumb {
     font-size: 14px !important;
     background-color: white !important;
+}
+
+.laptop .shadow1:hover>.img {
+    box-shadow: 0 0 5px 0 black;
 }
 
 
